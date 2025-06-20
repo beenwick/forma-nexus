@@ -514,12 +514,11 @@ header.scrolled {
 }
 
 .mockup img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: transform 0.4s ease;
-  z-index: 1;
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
+
 
 .mockup:hover::before {
   opacity: 0;
